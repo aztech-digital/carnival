@@ -3,6 +3,7 @@
 namespace Aztech\Carnival\Tests;
 
 use Aztech\Carnival\Masquerade;
+
 class MasqueradeTest extends \PHPUnit_Framework_TestCase
 {
 
