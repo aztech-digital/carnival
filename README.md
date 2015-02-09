@@ -4,7 +4,7 @@ Carnival
 [![Build Status](https://travis-ci.org/aztech-digital/carnival.svg)](https://travis-ci.org/aztech-digital/carnival)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/coverage/g/aztech-digital/carnival.svg?style=flat)](https://scrutinizer-ci.com/g/aztech-digital/carnival/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/g/aztech-digital/carnival.svg?style=flat)](https://scrutinizer-ci.com/g/aztech-digital/carnival/?branch=master)
-[![HHVM Support](https://img.shields.io/hhvm/aztech-digital/carnival.svg)](http://hhvm.h4cc.de/package/aztech/carnival)
+[![HHVM Support](https://img.shields.io/hhvm/aztech/carnival.svg)](http://hhvm.h4cc.de/package/aztech/carnival)
 
 Carnival is a simple library to generate static facades from instance objects. In other words, it takes an object, hides it behind a generated static class, effectively transforming your object into a singleton as long as you access it from the static facade.
 
