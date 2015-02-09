@@ -17,7 +17,7 @@ composer require aztech/carnival
 
 You must then include the Composer autoloader in the entry file of your application:
 
-```
+```php
 <?php
 
 require_once __DIR__ . 'vendor/autoload.php';
