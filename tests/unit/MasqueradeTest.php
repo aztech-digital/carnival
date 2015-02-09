@@ -22,7 +22,7 @@ class MasqueradeTest extends \PHPUnit_Framework_TestCase
         Masquerade::bind('Namespaced2\DummyMask', new DummyClass());
 
         $this->assertTrue(class_exists('\Namespaced\DummyMask'));
-        $this->assertTrue(class_exists('Namespaced2\DummyMask'));
+        $this->assertTrue(class_exists('\Namespaced2\DummyMask'));
     }
 
     /**
