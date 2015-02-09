@@ -1,0 +1,22 @@
+{
+    "autoload": {
+        "\\": "src"
+    },
+    "bootstrap": "vendor/autoload.php",
+    "emitLevel": {
+        "unableToResolveType": "error",
+        "unableToResolveTypeInComment": "suppress",
+        "unableToResolveUse": "error",
+        "useOfUnqualifiedType": "warning",
+        "useOfUnqualifiedTypeInComment": "warning",
+        "duplicateAlias": "error",
+        "malformedUse": "error",
+        "multiStatementUse": "warning",
+        "missingNamespace": "error",
+        "unusedUse": "warning",
+        "disorganizedUses": "warning",
+        "commonTypos": "warning",
+        "accessLevel": "error",
+        "methodExists": "error"
+    }
+}
