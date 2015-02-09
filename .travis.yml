@@ -13,6 +13,7 @@ before_script:
   - PHP_CURRENT='5.6'
   
 script:
+  - make test
   - make test-analysis
   - if [ $(phpenv version-name) = $PHP_CURRENT ]; then make test-upload; fi
   - make clean
