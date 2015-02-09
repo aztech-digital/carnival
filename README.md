@@ -27,7 +27,7 @@ require_once __DIR__ . 'vendor/autoload.php';
 
 Probably a lot of things. But that fails to answer the question, why this library. Because ! 
 
-Ok, originally, I wrote it as a troll against Laravel's facades. But if anyone finds it useful, go ahead, have fun !
+Ok, originally, I wrote it as a troll. But if anyone finds it useful, go ahead, have fun !
 
 ## And you're using `eval` ?
 
